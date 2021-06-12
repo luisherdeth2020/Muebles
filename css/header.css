@@ -1,0 +1,82 @@
+/**--------------------------------------------
+ *               STYLE HEADER
+ *---------------------------------------------**/
+* {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+body {
+	color: var(--color);
+	font-size: 16px;
+}
+
+.container {
+	display: grid;
+	width: 90vw;
+	margin: 0 auto;
+}
+header {
+	align-items: center;
+	display: grid;
+	grid-template-columns: 15% 30% 1fr 15%;
+	grid-template-rows: 100px 150px 200px 200px;
+	background-image: url(./../img/desktop/sillon.jpg);
+	background-size: cover;
+}
+.header__h1 {
+	grid-column: 2/3;
+}
+.header__nav {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.header__number {
+	font-weight: bold;
+}
+
+.header__list {
+	align-items: center;
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-evenly;
+}
+.info {
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.info p {
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 1.3rem;
+}
+.info__title {
+	display: block;
+}
+.info button {
+	border: none;
+	color: white;
+	width: 50%;
+	background: var(--btn);
+	padding: 0.8rem;
+	border-radius: 0.5rem;
+}
+.header__list li:first-child {
+	background: var(--btn);
+	padding: 2.5rem 0.7rem;
+}
+.header__list a:nth-child(2),
+.header__list a:nth-child(3) {
+	padding: 0 8px;
+}
+
+.company {
+	text-align: center;
+}
+.main__container {
+	display: flex;
+	width: 70vw;
+	margin: 3rem auto;
+}

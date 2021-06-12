@@ -1,0 +1,22 @@
+/**----------------------
+ *    FORMATO  ETIQUETAS 
+ *------------------------**/
+ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: var(--color);
+}
+ul{
+	list-style-type: none;
+}
+body {
+	font-family: var(--font-family-parrafo);
+}
+h2 {
+    letter-spacing: 2px;
+    margin: 0;
+	font-size: 2.6rem;
+}
+img{
+	width: 100%;
+}
